@@ -15,7 +15,7 @@ public class Server {
 	public static void main(String[] args) {
 
 		try {
-			ServerSocket s = new ServerSocket(9000);
+			ServerSocket s = new ServerSocket(9001);
 			Socket openSocket = s.accept();
 
 			System.out.println(openSocket.getPort() + " is the remote port.");
